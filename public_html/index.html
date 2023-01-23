@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>Calculadora em JS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <div class="flex">
+
+        <!-- class="container" -->
+        <!-- class="row" -->
+        <!-- class="col s4" -->
+        <form>
+            <h5>CALCULADORA</h5>
+
+            <input class="tela" type="button" name="mostrador" id="mostrador" value="0" readonly />
+            <br><br>
+            <input class="operador" type="button" name="operador" id="operador" readonly />
+
+            <input class="tela" type="button" name="numeroAuxiliar" id="numeroAuxiliar" value="0" readonly />
+
+            <div>
+                <input class="btn waves-light" type="button" id="b7" value="7" name="sete" />
+                <input class="btn waves-light" type="button" id="b8" value="8" name="oito" />
+                <input class="btn waves-light" type="button" id="b9" value="9" name="nove" />
+                <input class="btn waves-light" type="button" id="bSoma" value="+" name="soma" />
+                <input class="btn waves-light" type="button" id="bCE" value="CE" name="limp" />
+                <br><br>
+                <input class="btn waves-light" type="button" id="b4" value="4" name="quatro" />
+                <input class="btn waves-light" type="button" id="b5" value="5" name="cinco" />
+                <input class="btn waves-light" type="button" id="b6" value="6" name="seis" />
+                <input class="btn waves-light" type="button" id="bSub" value="-" name="sub" />
+                <input class="btn waves-light" type="button" id="bRaiz" value="&Sqrt;" name="bRaiz" />
+                <br><br>
+                <input class="btn waves-light" type="button" id="b1" value="1" name="um" />
+                <input class="btn waves-light" type="button" id="b2" value="2" name="dois" />
+                <input class="btn waves-light" type="button" id="b3" value="3" name="tres" />
+                <input class="btn waves-light" type="button" id="bMulti" value="x" name="mult" />
+                <input class="btn waves-light" type="button" id="bQuadrado" value="x&#x00B2;" name="bQuadrado" />
+                <br><br>
+                <input class="btn waves-light" type="button" id="b0" value="0" name="zero" />
+                <input class="btn waves-light" type="button" id="bPonto" value="." />
+                <input class="btn waves-light" type="button" id="bBarra" value="/" name="div" />
+                <input class="btn waves-light" type="button" id="bIgual" value="=" name="igual" />
+                <input class="btn waves-light" type="button" id="bPotencia" value="Xʸ" name="bPotencia" />
+            </div>
+            <br><br>
+            <h6>Histórico</h6>
+            <textarea id="fita" name="fita"></textarea>
+        </form>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./js/calculadoraJS.js"></script>
+    </div>
+</body>
+
+</html>
